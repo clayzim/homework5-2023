@@ -1,10 +1,13 @@
+/* Page-wide Styling */
 body {
     font-family: "Poppins", serif;
     background-color: #f1f1f1;
     background-image: url(../images/concrete_seamless.png);
 }
 
-/* TODO: Figure these out more precisely, needs to refine to meet setps 3 & 4 */
+
+/* Header & Navigation Layout */
+/* Every header is a column with centered items */
 header {
     display: flex;
     flex-direction: column;
@@ -12,6 +15,7 @@ header {
     align-items: center;
 }
 
+/* No appearance change in mobile view, but allows for easier responsive adjustments for wider screens */
 .nav_links {
     display: flex;
     flex-direction: column;
@@ -19,6 +23,7 @@ header {
 }
 
 
+/* Link Styling */
 /* Set links, unvisited and visited, to same color */
 a:link {
     color: #1201F5;
@@ -29,6 +34,7 @@ a:visited {
 }
 
 
+/* Pricing Card Styling */
 /* Style defaults for headers on cards */
 .card > header {
     background-color: #288088;
@@ -42,6 +48,7 @@ a:visited {
 }
 
 
+/* Pricing Section Layout */
 /* TODO: There's an extra bit of height on the $20 card, seemingly from above the margin, probably based on basis/grow/shrink */
 /* Steps 7 & 8 implemented */
 .card {
@@ -58,6 +65,7 @@ a:visited {
 }
 
 
+/* Gallery Styling & Layout */
 /* Images within gallery at end of page */
 .gallery > img {
     border: 10px solid #50c7c7;
