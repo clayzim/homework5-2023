@@ -12,4 +12,15 @@ header {
 }
 
 
+/* Style defaults for headers on cards */
+.card > header {
+    background-color: #288088;
+    border: 2px solid #45adad;
+    padding: 20px 0;
+}
+
+/* Ensure corners are rounded on header and underlying card div */
+.card, .card > header {
+    border-radius: 50px 50px 0 0;
+}
 
