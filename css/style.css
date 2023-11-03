@@ -49,3 +49,19 @@ a:visited {
     align-items: center;
     justify-content: center;
 }
+
+
+/* Images within gallery at end of page */
+.gallery > img {
+    border: 10px solid #50c7c7;
+    margin: 10px;
+    width: 300px;
+}
+
+/* Lay out images within gallery according to flex */
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
