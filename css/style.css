@@ -45,13 +45,14 @@ a:link, a:visited {
 
 
 /* Pricing Section Layout */
-/* TODO: There's an extra bit of height on the $20 card, seemingly from above the margin, probably based on basis/grow/shrink */
-/* Steps 7 & 8 implemented */
+/* Set card size: fixed width, adaptive height */
 .card {
     width: 500px;
-    flex-basis: 450px;
+    /* Cards better match the visuals in the reference screenshot with basis 0, growing to fit their content. Setting a standard basis of 450px or 425px to account for padding results in awkward gaps on the first and third cards. */
+    flex-basis: 0;
 }
 
+/* Center cards horizontally and vertically in pricing section */
 .pricing {
     display: flex;
     flex-direction: column;
