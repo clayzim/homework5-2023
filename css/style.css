@@ -6,7 +6,7 @@ body {
 }
 
 
-/* Header & Navigation Layout */
+/* Header & Navigation Layout: */
 /* Every header is a column with centered items */
 header {
     display: flex;
@@ -23,14 +23,14 @@ header {
 }
 
 
-/* Link Styling */
+/* Link Styling: */
 /* Set links, unvisited and visited, to same color */
 a:link, a:visited {
     color: #1201F5;
 }
 
 
-/* Pricing Card Styling */
+/* Pricing Card Styling: */
 /* Style defaults for headers on cards */
 .card > header {
     background-color: #288088;
@@ -44,7 +44,7 @@ a:link, a:visited {
 }
 
 
-/* Pricing Section Layout */
+/* Pricing Section Layout: */
 /* Set card size: fixed width, adaptive height */
 .card {
     width: 500px;
@@ -62,7 +62,7 @@ a:link, a:visited {
 }
 
 
-/* Gallery Styling & Layout */
+/* Gallery Styling & Layout: */
 /* Images within gallery at end of page */
 .gallery > img {
     border: 10px solid #50c7c7;
