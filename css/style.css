@@ -12,6 +12,12 @@ header {
     align-items: center;
 }
 
+.nav_links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
 
 /* Set links, unvisited and visited, to same color */
 a:link {
