@@ -4,3 +4,12 @@ body {
     background-image: url(../images/concrete_seamless.png);
 }
 
+/* TODO: Figure these out more precisely, needs to refine to meet setps 3 & 4 */
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+
+
