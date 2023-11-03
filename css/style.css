@@ -12,6 +12,16 @@ header {
 }
 
 
+/* Set links, unvisited and visited, to same color */
+a:link {
+    color: #1201F5;
+}
+
+a:visited {
+    color: #1201F5;
+}
+
+
 /* Style defaults for headers on cards */
 .card > header {
     background-color: #288088;
