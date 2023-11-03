@@ -25,11 +25,7 @@ header {
 
 /* Link Styling */
 /* Set links, unvisited and visited, to same color */
-a:link {
-    color: #1201F5;
-}
-
-a:visited {
+a:link, a:visited {
     color: #1201F5;
 }
 
