@@ -116,3 +116,27 @@ a:link, a:visited {
         flex-basis: 275px;
     }
 }
+
+
+/* Logo Animation: */
+/* Keyframes to grow and fade in logo */
+@keyframes logoTransition {
+    from {
+        width: 25px;
+        opacity: 0%;
+    }
+
+    to {
+        width: 475px;
+        opacity: 100%;
+    }
+}
+
+/* Applies keyframes to animate logo */
+#logo {
+    animation-name: logoTransition;
+    /* Playtime is 5 seconds, plays once by default upon load */
+    animation-duration: 5s;
+    /* Behavior differs from video, but fill mode ensures that logo doesn't snap to a smaller size jarringly after the animation plays */
+    animation-fill-mode: forwards;
+}
