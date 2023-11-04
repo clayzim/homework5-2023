@@ -104,5 +104,15 @@ a:link, a:visited {
         top: 0;
     }
 
-    /*  */
+
+    /* Pricing Section Layout Changes: */
+    /* Layout price cards horizontally */
+    .pricing {
+        flex-direction: row;
+    }
+
+    /* Set fixed card width (height is adaptive) */
+    .card {
+        flex-basis: 275px;
+    }
 }
