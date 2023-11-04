@@ -149,4 +149,15 @@ a:link, a:visited {
 /* Changes for Printing Site */
 /* TODO: Change to proper print media query */
 @media only screen and (min-width:400px) {
+    /* Page-wide Styling Changes: */
+    body {
+        font-family: Arial, Helvetica;
+        background-image: none;
+    }
+
+
+    /* Animation not possible in print */
+    #logo {
+        animation: none;
+    }
 }
