@@ -156,6 +156,19 @@ a:link, a:visited {
     }
 
 
+    /* Layout Changes for Site Header: */
+    /* Fill page width with navigation */
+    nav {
+        align-self: stretch;
+    }
+
+    /* Change position of nav links */
+    .nav_links {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
     /* Animation not possible in print */
     #logo {
         animation: none;
