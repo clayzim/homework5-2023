@@ -182,6 +182,11 @@ a:link, a:visited {
         flex-basis: 325px;
     }
 
+    /* Inserted emoji after marketing claims */
+    .card li:nth-of-type(2)::after {
+        content: '👍';
+    }
+
 
     /* Hide gallery for print */
     /* TODO: Missing spacing that's visible in exmaple pdf */
