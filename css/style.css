@@ -169,6 +169,20 @@ a:link, a:visited {
     }
 
 
+    /* Layout Changes for Pricing Section: */
+    /* Align cards along bottom edge, left to right */
+    .pricing {
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    /* Adjust card appearance/size for print */
+    .card {
+        border: 2px solid #45addd;
+        flex-basis: 325px;
+    }
+
+
     /* Animation not possible in print */
     #logo {
         animation: none;
