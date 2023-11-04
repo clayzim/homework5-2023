@@ -147,8 +147,7 @@ a:link, a:visited {
 
 
 /* Changes for Printing Site */
-/* TODO: Change to proper print media query */
-@media only screen and (min-width:400px) {
+@media print {
     /* Page-wide Styling Changes: */
     body {
         font-family: Arial, Helvetica;
