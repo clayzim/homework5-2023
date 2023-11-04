@@ -197,5 +197,8 @@ a:link, a:visited {
     /* Animation not possible in print */
     #logo {
         animation: none;
+        /* Ensure animation reaches its final state */
+        width: 475px;
+        opacity: 100%;
     }
 }
