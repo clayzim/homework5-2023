@@ -48,8 +48,7 @@ a:link, a:visited {
 /* Set card size: fixed width, adaptive height */
 .card {
     width: 500px;
-    /* Cards better match the visuals in the reference screenshot with basis 0, growing to fit their content. Setting a standard basis of 450px or 425px to account for padding results in awkward gaps on the first and third cards. */
-    flex-basis: 0;
+    /* Cards better match the visuals in the reference screenshot with no basis set, growing to fit their content. Setting a standard basis of 450px or 425px to account for padding results in awkward gaps at the bottom of the first and third cards. */
 }
 
 /* Center cards horizontally and vertically in pricing section */
