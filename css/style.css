@@ -119,7 +119,7 @@ a:link, a:visited {
 
 
 /* Logo Animation: */
-/* Keyframes to grow and fade in logo */
+/* Define keyframes to grow and fade in logo */
 @keyframes logoTransition {
     from {
         width: 25px;
@@ -139,4 +139,12 @@ a:link, a:visited {
     animation-duration: 5s;
     /* Behavior differs from video, but fill mode ensures that logo doesn't snap to a smaller size jarringly after the animation plays */
     animation-fill-mode: forwards;
+}
+
+/* Turn off animation if user prefers reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    #logo {
+        /* Plays animation instantly, resulting in same final look as with animation on */
+        animation-duration: 0ms;
+    }
 }
