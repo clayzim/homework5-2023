@@ -1,4 +1,4 @@
-/* Page-wide Styling */
+/* Page-wide Styling: */
 body {
     font-family: "Poppins", serif;
     background-color: #f1f1f1;
@@ -15,7 +15,7 @@ header {
     align-items: center;
 }
 
-/* No appearance change in mobile view, but allows for easier responsive adjustments for wider screens */
+/* No appearance change from default in mobile view, but allows for easier responsive adjustments for wider screens */
 .nav_links {
     display: flex;
     flex-direction: column;
@@ -24,7 +24,7 @@ header {
 
 
 /* Link Styling: */
-/* Set links, unvisited and visited, to same color */
+/* Links, unvisited and visited, are the same color */
 a:link, a:visited {
     color: #1201F5;
 }
@@ -38,7 +38,7 @@ a:link, a:visited {
     padding: 20px 0;
 }
 
-/* Ensure corners are rounded on header and underlying card div */
+/* Top corners are round on card header and div */
 .card, .card > header {
     border-radius: 50px 50px 0 0;
 }
@@ -51,7 +51,7 @@ a:link, a:visited {
     /* Cards better match the visuals in the reference screenshot with no basis set, growing to fit their content. Setting a standard basis of 450px or 425px to account for padding results in awkward gaps at the bottom of the first and third cards. */
 }
 
-/* Center cards horizontally and vertically in pricing section */
+/* Cards are horizontally and vertically centered in pricing section */
 .pricing {
     display: flex;
     flex-direction: column;
@@ -62,7 +62,7 @@ a:link, a:visited {
 
 
 /* Gallery Styling & Layout: */
-/* Images within gallery at end of page */
+/* Default appearance of images within gallery */
 .gallery > img {
     border: 10px solid #50c7c7;
     margin: 10px;
@@ -88,13 +88,13 @@ a:link, a:visited {
         justify-content: space-between;
     }
 
-    /* Spread links out horizontally, at opposite end from logo */
+    /* Spread links out horizontally, at rightmost position */
     .nav_links {
         flex-direction: row;
         justify-content: flex-end;
     }
 
-    /* Ensure site header stays stuck to top of screen */
+    /* Ensure site header stays at top of screen when scrolling */
     body > header {
         position: sticky;
         top: 0;
