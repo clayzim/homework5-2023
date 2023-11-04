@@ -84,11 +84,8 @@ a:link, a:visited {
     /* Change headers to arrange items horizontally */
     header {
         flex-direction: row;
-    }
-
-    /* Grow navigation section to fill remaining width */
-    header > nav {
-        flex-grow: 1;
+        /* Separate two items in header to opposite sides of screen */
+        justify-content: space-between;
     }
 
     /* Spread links out horizontally, at opposite end from logo */
