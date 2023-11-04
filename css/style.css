@@ -183,6 +183,13 @@ a:link, a:visited {
     }
 
 
+    /* Hide gallery for print */
+    /* TODO: Missing spacing that's visible in exmaple pdf */
+    #gallery, .gallery {
+        display: none;
+    }
+
+
     /* Animation not possible in print */
     #logo {
         animation: none;
