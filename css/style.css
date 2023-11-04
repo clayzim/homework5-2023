@@ -98,6 +98,11 @@ a:link, a:visited {
         justify-content: flex-end;
     }
 
+    /* Ensure site header stays stuck to top of screen */
+    body > header {
+        position: sticky;
+        top: 0;
+    }
 
     /*  */
 }
