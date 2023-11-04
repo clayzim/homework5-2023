@@ -77,3 +77,27 @@ a:link, a:visited {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
+/* Layout Changes for Screens 900px and Wider */
+@media only screen and (min-width:900px) {
+    /* Header Layout Changes:  */
+    /* Change headers to arrange items horizontally */
+    header {
+        flex-direction: row;
+    }
+
+    /* Grow navigation section to fill remaining width */
+    header > nav {
+        flex-grow: 1;
+    }
+
+    /* Spread links out horizontally, at opposite end from logo */
+    .nav_links {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+
+    /*  */
+}
